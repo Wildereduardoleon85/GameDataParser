@@ -1,8 +1,7 @@
-﻿using System.Text.Json;
+﻿
+
 using game_data_parser.App;
-using game_data_parser.DataFormat;
-using game_data_parser.Entities;
-using game_data_parser.Validations;
+using GameDataParser.Entities;
 using Microsoft.VisualBasic;
 
 // Console.WriteLine("Enter the name of the file you want to read:");

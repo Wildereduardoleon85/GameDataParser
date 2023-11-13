@@ -1,4 +1,4 @@
-using game_data_parser.Validations;
+using GameDataParser.Validations;
 
 namespace game_data_parser.App;
 
@@ -15,7 +15,7 @@ public class GameDataParserApp
 
     if (validation.FileExists(input))
     {
-
+      Console.WriteLine("the file exists");
     }
   }
 }

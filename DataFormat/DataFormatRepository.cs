@@ -1,7 +1,7 @@
 using System.Text;
-using game_data_parser.Entities;
+using GameDataParser.Entities;
 
-namespace game_data_parser.DataFormat;
+namespace GameDataParser.DataFormat;
 
 public class DataFormatRepository
 {

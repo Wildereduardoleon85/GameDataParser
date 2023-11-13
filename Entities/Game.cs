@@ -1,4 +1,4 @@
-namespace game_data_parser.Entities;
+namespace GameDataParser.Entities;
 
 public class Game
 {

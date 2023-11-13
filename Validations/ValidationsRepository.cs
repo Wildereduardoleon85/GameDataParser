@@ -1,4 +1,4 @@
-namespace game_data_parser.Validations;
+namespace GameDataParser.Validations;
 
 public class ValidationsRepository
 {
