@@ -1,5 +1,5 @@
 using System.Text;
-using GameDataParser.Entities;
+using GameDataParser.GameEntity;
 
 namespace GameDataParser.DataFormat;
 

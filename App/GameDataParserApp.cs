@@ -11,11 +11,12 @@ public class GameDataParserApp
 
     interaction.PrintInitialInstructions();
 
-    string? input = Console.ReadLine();
+    bool isInputValid = false;
 
-    if (validation.FileExists(input))
-    {
-      Console.WriteLine("the file exists");
-    }
+    // while (!isInputValid)
+    // {
+    //   string? input = Console.ReadLine();
+
+    // }
   }
 }

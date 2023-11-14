@@ -1,6 +1,6 @@
 
 using GameDataParser.DataFormat;
-using GameDataParser.Entities;
+using GameDataParser.GameEntity;
 
 namespace game_data_parser.App;
 
