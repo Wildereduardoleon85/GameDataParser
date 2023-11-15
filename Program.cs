@@ -1,6 +1,8 @@
 ﻿using game_data_parser.App;
 
-GameDataParserApp app = new();
+const string logFile = "Log.txt";
+
+GameDataParserApp app = new(logFile);
 
 app.Init();
 

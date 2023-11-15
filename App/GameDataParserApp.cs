@@ -8,6 +8,11 @@ namespace game_data_parser.App;
 
 public class GameDataParserApp
 {
+  private readonly string _logFile;
+  public GameDataParserApp(string logFile)
+  {
+    _logFile = logFile;
+  }
   public void Init()
   {
     InteractionsRepository interaction = new();
@@ -40,7 +45,7 @@ public class GameDataParserApp
         else
         {
           string exceptionDetails = exception.GetDetails(jsonParseResult.Ex!);
-          text.CreateOrWrite("log.txt", exceptionDetails + Environment.NewLine);
+          text.CreateOrWrite(_logFile, exceptionDetails + Environment.NewLine);
 
           interaction.PrintJsonException(
             validationResult.Value,
